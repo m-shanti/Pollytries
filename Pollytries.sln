@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pollytries", "Pollytries\Pollytries.csproj", "{06C0F636-FA67-4ECE-898E-80796C86C9C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{A12BD5B4-8416-4575-96C6-20E2D24E6D37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06C0F636-FA67-4ECE-898E-80796C86C9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C0F636-FA67-4ECE-898E-80796C86C9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C0F636-FA67-4ECE-898E-80796C86C9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C0F636-FA67-4ECE-898E-80796C86C9C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12BD5B4-8416-4575-96C6-20E2D24E6D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12BD5B4-8416-4575-96C6-20E2D24E6D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12BD5B4-8416-4575-96C6-20E2D24E6D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12BD5B4-8416-4575-96C6-20E2D24E6D37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
