@@ -13,7 +13,7 @@ class ServiceX : IServiceX
     public async Task<string> GetString()
     {
         Console.WriteLine("ServiceX: Calling external service. This is only one time. Retries and other run inside httpClient.");
-        Task<string> t = _httpClient.GetStringAsync("http://localhost:5009/get/fail");
+        Task<string> t = _httpClient.GetStringAsync("http://localhost:5009/get/success2s");
         await t.ContinueWith((task) => Console.WriteLine($"ServiceX: Got response: {task.Result}"));
         return await t;
     }

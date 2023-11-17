@@ -19,6 +19,11 @@ WebApplication app = builder.Build();
 
 app.MapGet("/get/fail", () => Results.Problem("Problem"));
 app.MapGet("/get/success", () => Results.Ok("OK"));
+app.MapGet("/get/success2s", () =>
+{
+    Thread.Sleep(2000);
+    return Results.Ok("OK");
+});
 app.MapGet("/get/failorsuccess", () =>
 {
     Random random = new Random();
